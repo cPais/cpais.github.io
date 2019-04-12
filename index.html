@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Java Portfolio</title>
+  <title>Cory Home</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -14,20 +14,29 @@
       border-radius: 0;
     }
     
-    /* Add a gray background color and some padding to the footer */
-    footer {
-      background-color: #f2f2f2;
-      padding: 25px;
-    }
-	
-table, th, td {
-  border: 1px solid black;
+   
+	ul li{
+		font-family: "Bahnschrift"; font-size: 150%;
+	}
+	ul li a{
+		color: #0e0f0f;
+	}
+	#name-1{
+		font-family: "Bahnschrift"; font-size: 180%;
+		color: #0e0f0f;
+	}
+	p{
+		font-size:130%;
+	}
+	.italic{
+		font-style: italic;
+	}
 }
   </style>
 </head>
-<body style="background-color: #7e8ba0">
+<body style="">
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar ">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -35,12 +44,13 @@ table, th, td {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Portfolio</a>
+      <span id="name-1" class="navbar-brand">Cory Paisley</span>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="https://drive.google.com/file/d/13sNAiAmPW1NqaY4AW0xtLxCDssxdthbV/view?usp=sharing" target="_blank">Resume</a></li>
-        <li><a href="http://chiefclutch.blogspot.com/" target="_blank">Blog</a></li>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a style="color: #679bef" href="index.html">HOME</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+		<li><a href="#">RESUME</a></li>
       </ul>
 	  <!--
       <ul class="nav navbar-nav navbar-right">
@@ -51,159 +61,42 @@ table, th, td {
   </div>
 </nav>
 
-<div class="jumbotron" style="background-image: url(city.png); height:332px">
+<div class="jumbotron" style="height:332px;
+						background-color: #eaeeef; 
+						border-bottom-style:solid;
+						border-top-style:solid;
+						border-width: thin;">
   <div class="container text-center">
+	<img src="images/myProfilePic.png">
+	<h1 id="name-2">Cory Paisley</h1>
+	<h3 style="color:#c5c8cc">Software Engineer based in <span style="color:#679bef">Atlanta, GA</span></h3>
 	
 	
   </div>
 </div>
+<div class="row">
+    <!-- <div class="col-md-6 col-md-offset-3">  -->
+	<div class="col-sm-2">
+		  </div>
+	<div class="col-sm-6"> 
+	<h2 style="font-weight: bold;">About me</h2>
+	<p style="font-size: 130%;">I am a computer science graduate from the State University of New York's Westchester Community College. I love programming, traveling, history and storytelling. Game design was one of my primary motivations for entering the field. I'm a skilled Full Stack Web Developer concentrating in Java and Spring. Feel free to take a look at my most recent work on my <a href="projects.html">projects page</a>.</p>
+	</div>
+	
+	<div class="col-sm-2"> 
+	<h2 style="font-weight: bold;">Contact</h2>
+	<p>
+		<p><a class="italic" href="#" title="(470) 318-5303">Phone</a></p>
+		<p><a class="italic" href="mailto:paisley.cory@gmail.com">Email</a></p>
+		<p><a class="italic" href="https://github.com/cPais" target="_blank">GitHub</p>
+	</p>
+	</div>
+	<div class="col-sm-2">
+		  </div>
+</div>
   
-<div class="container-fluid bg-3 text-center">
-		<h3 style="text-align:left;">Cory Paisley</h3>
-  <p style="text-align:left">  I’m a web developer from Stockbridge, GA. I focus on back-end web development using Java and related technologies. Here is some of my work.</p>
-<br>
-  <div class="row">
-    <div class="col-sm-6">
-      <table style="width:100%">
-  <tr>
-    <td>Name</td>
-	<td>Okmont Financial</td>
-  </tr>
-  <tr style="height:50px;">
-    <td>Features</td>
-    <td>Product advertisement and company information repository as well as storing and querying company data </td>
-  </tr>
-  <tr>
-    <td>Demo</td>
-	<td><a href="https://youtu.be/6JziqzUHpqk" target="_blank">Okmont Demo</a></td>
-  </tr>
-  <tr>
-	<td>Software</td>    
-	<td>Java/Spring/Hibernate/XML/AWS</td>
-  </tr>
-</table>
-    </div>
-    <div class="col-sm-6"> 
-      <table style="width:100%">
-  <tr>
-    <td>Name</td>
-	<td>Payment Ledger</td>
-  </tr>
-  <tr style="height:50px;">
-    <td>Features</td>
-    <td>Storing and sorting through payment and billing information </td>
-  </tr>
-  <tr>
-    <td>Demo</td>
-	<td><a href="https://youtu.be/MB6KJU4-heM" target="_blank">Ledger Demo</a></td>
-  </tr>
-  <tr>
-	<td>Software</td>    
-	<td>Java/JSP/Servlets/JDBC/SQL</td>
-  </tr>
-</table>
-    </div>
-  </div>
-</div><br>
 
-<div class="container-fluid bg-3 text-center">    
-  <div class="row">
-    <div class="col-sm-3">
-		      <table style="width:100%">
-  <tr>
-    <td>Name</td>
-	<td>TBD</td>
-  </tr>
-  <tr style="height:50px;">
-    <td>Features</td>
-    <td>TBD </td>
-  </tr>
-  <tr>
-    <td>Demo</td>
-	<td>TBD</td>
-  </tr>
-  <tr>
-	<td>Software</td>    
-	<td>TBD</td>
-  </tr>
-</table>
-
-    </div>
-    <div class="col-sm-3"> 
-            <table style="width:100%">
-  <tr>
-    <td>Name</td>
-	<td>TBD</td>
-  </tr>
-  <tr style="height:50px;">
-    <td>Features</td>
-    <td>TBD</td>
-  </tr>
-  <tr>
-    <td>Demo</td>
-	<td>TBD</td>
-  </tr>
-  <tr>
-	<td>Software</td>    
-	<td>TBD</td>
-  </tr>
-</table>
-
-    </div>
-    <div class="col-sm-3"> 
-            <table style="width:100%">
-  <tr>
-    <td>Name</td>
-	<td>TBD</td>
-  </tr>
-  <tr style="height:50px;">
-    <td>Features</td>
-    <td>TBD</td>
-  </tr>
-  <tr>
-    <td>Demo</td>
-	<td>TBD</td>
-  </tr>
-  <tr>
-	<td>Software</td>    
-	<td>TBD</td>
-  </tr>
-</table>
-
-    </div>
-    <div class="col-sm-3">
-            <table style="width:100%">
-  <tr>
-    <td>Name</td>
-	<td>TBD</td>
-  </tr>
-  <tr style="height:50px;">
-    <td>Features</td>
-    <td>TBD </td>
-  </tr>
-  <tr>
-    <td>Demo</td>
-	<td>TBD</td>
-  </tr>
-  <tr>
-	<td>Software</td>    
-	<td>TBD</td>
-  </tr>
-</table>
-
-    </div>
-  </div>
 </div><br><br>
-
-<footer class="container-fluid text-left">
-<h3>Contact</h3>
-Phone: 914-356-1496
-<br>
-Email: paisley.cory@gmail.com
-
-    
-  
-</footer>
 
 </body>
 </html>
